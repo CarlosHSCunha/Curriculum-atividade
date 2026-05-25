@@ -1,0 +1,135 @@
+{
+  "C:/Users/Carlos H/Desktop/Curriculum-atividade/src/styles.css": {
+    "file": "assets/styles-BnNeRfRz.css",
+    "src": "C:/Users/Carlos H/Desktop/Curriculum-atividade/src/styles.css"
+  },
+  "_carlos-profile-xA0yMN7I.js": {
+    "file": "assets/carlos-profile-xA0yMN7I.js",
+    "name": "carlos-profile",
+    "assets": [
+      "assets/carlos-profile-zBneeMum.png"
+    ]
+  },
+  "_router-DIKyKzCV.js": {
+    "file": "assets/router-DIKyKzCV.js",
+    "name": "router",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-Dro0XDpv.js"
+    ],
+    "dynamicImports": [
+      "src/routes/sobre.tsx?tsr-split=component",
+      "src/routes/projetos.tsx?tsr-split=component",
+      "src/routes/profissional.tsx?tsr-split=component",
+      "src/routes/academica.tsx?tsr-split=component",
+      "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/styles-BnNeRfRz.css"
+    ]
+  },
+  "_server-Dro0XDpv.js": {
+    "file": "assets/server-Dro0XDpv.js",
+    "name": "server",
+    "isDynamicEntry": true,
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "_router-DIKyKzCV.js",
+      "src/start.ts",
+      "node_modules/@tanstack/start-server-core/dist/esm/empty-plugin-adapters.js"
+    ]
+  },
+  "_worker-entry-DKhVd1oq.js": {
+    "file": "assets/worker-entry-DKhVd1oq.js",
+    "name": "worker-entry",
+    "dynamicImports": [
+      "_server-Dro0XDpv.js"
+    ]
+  },
+  "node_modules/@tanstack/start-server-core/dist/esm/empty-plugin-adapters.js": {
+    "file": "assets/empty-plugin-adapters-BFgPZ6_d.js",
+    "name": "empty-plugin-adapters",
+    "src": "node_modules/@tanstack/start-server-core/dist/esm/empty-plugin-adapters.js",
+    "isDynamicEntry": true
+  },
+  "src/assets/carlos-profile.png": {
+    "file": "assets/carlos-profile-zBneeMum.png",
+    "src": "src/assets/carlos-profile.png"
+  },
+  "src/routes/academica.tsx?tsr-split=component": {
+    "file": "assets/academica-BPz3Wyzh.js",
+    "name": "academica",
+    "src": "src/routes/academica.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-Dro0XDpv.js",
+      "_router-DIKyKzCV.js"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-CHh03r4w.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-Dro0XDpv.js",
+      "_carlos-profile-xA0yMN7I.js",
+      "_router-DIKyKzCV.js"
+    ]
+  },
+  "src/routes/profissional.tsx?tsr-split=component": {
+    "file": "assets/profissional-DMmJqmVj.js",
+    "name": "profissional",
+    "src": "src/routes/profissional.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-Dro0XDpv.js",
+      "_router-DIKyKzCV.js"
+    ]
+  },
+  "src/routes/projetos.tsx?tsr-split=component": {
+    "file": "assets/projetos-DI6uFYxd.js",
+    "name": "projetos",
+    "src": "src/routes/projetos.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-Dro0XDpv.js",
+      "_router-DIKyKzCV.js"
+    ]
+  },
+  "src/routes/sobre.tsx?tsr-split=component": {
+    "file": "assets/sobre-DhwCdySi.js",
+    "name": "sobre",
+    "src": "src/routes/sobre.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-Dro0XDpv.js",
+      "_carlos-profile-xA0yMN7I.js"
+    ]
+  },
+  "src/start.ts": {
+    "file": "assets/start-8Cfl-4ZT.js",
+    "name": "start",
+    "src": "src/start.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-Dro0XDpv.js",
+      "_worker-entry-DKhVd1oq.js"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-C1eHw3g4.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_worker-entry-DKhVd1oq.js"
+    ]
+  }
+}
