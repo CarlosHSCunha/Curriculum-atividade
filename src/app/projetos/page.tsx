@@ -18,8 +18,10 @@ export const metadata: Metadata = {
 
 async function fetchGithubRepos() {
   const baseUrl =
-    process.env.NEXT_PUBLIC_BASE_URL ||
-    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://127.0.0.1:3000");
+    process.env.NEXT_PUBLIC_BASE_URL ??
+    (process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : "http://127.0.0.1:3000");
   const response = await fetch(`${baseUrl}/api/github-repos`, {
     cache: "no-store",
   });
