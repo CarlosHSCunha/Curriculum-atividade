@@ -33,7 +33,9 @@ export default function Academica() {
   return (
     <section className="mx-auto max-w-4xl px-6 pt-28 sm:pt-32 pb-20">
       <header className="mb-12">
-        <p className="text-primary text-xs uppercase tracking-[0.25em] mb-3">Trajetória</p>
+        <p className="text-primary text-xs uppercase tracking-[0.25em] mb-3">
+          Trajetória
+        </p>
         <h1 className="text-4xl sm:text-5xl font-semibold text-foreground">
           Formação <span className="text-primary">Acadêmica</span>
         </h1>
@@ -49,10 +51,16 @@ export default function Academica() {
               </span>
               <div className="rounded-xl border border-border bg-card p-5 hover:border-primary/60 transition-colors">
                 <div className="flex flex-wrap items-baseline justify-between gap-2">
-                  <h2 className="text-lg sm:text-xl font-semibold text-foreground">{it.title}</h2>
-                  <span className="text-xs text-primary uppercase tracking-wider">{it.period}</span>
+                  <h2 className="text-lg sm:text-xl font-semibold text-foreground">
+                    {it.title}
+                  </h2>
+                  <span className="text-xs text-primary uppercase tracking-wider">
+                    {it.period}
+                  </span>
                 </div>
-                <p className="text-sm text-muted-foreground mt-1">{it.subtitle}</p>
+                <p className="text-sm text-muted-foreground mt-1">
+                  {it.subtitle}
+                </p>
                 <p className="text-sm text-foreground/80 mt-2">{it.org}</p>
               </div>
             </li>

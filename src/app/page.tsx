@@ -16,16 +16,19 @@ export default function Home() {
           Portfólio · Carlos Henrique
         </p>
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.05] text-foreground">
-          Carlos Henrique<br />
+          Carlos Henrique
+          <br />
           <span className="text-primary">da Silva Cunha</span>
         </h1>
         <p className="mt-4 text-lg sm:text-xl text-muted-foreground">
-          Desenvolvedor Fullstack <span className="text-foreground">&amp;</span> UX/UI Design
+          Desenvolvedor Fullstack <span className="text-foreground">&amp;</span>{" "}
+          UX/UI Design
         </p>
         <p className="mt-6 text-base text-muted-foreground max-w-md leading-relaxed">
-          Olá! Sou apaixonado por construir produtos digitais que unem código limpo e design
-          intencional. Meu foco está em criar interfaces centradas no usuário, acessíveis e que
-          entreguem valor real do primeiro clique ao último.
+          Olá! Sou apaixonado por construir produtos digitais que unem código
+          limpo e design intencional. Meu foco está em criar interfaces
+          centradas no usuário, acessíveis e que entreguem valor real do
+          primeiro clique ao último.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <a

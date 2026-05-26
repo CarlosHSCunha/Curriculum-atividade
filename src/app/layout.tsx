@@ -5,7 +5,8 @@ import "@/styles.css";
 
 export const metadata: Metadata = {
   title: "Carlos Henrique — Fullstack Developer & UX/UI",
-  description: "Portfólio de Carlos Henrique da Silva Cunha, Desenvolvedor Fullstack e Estagiário em UX/UI Design.",
+  description:
+    "Portfólio de Carlos Henrique da Silva Cunha, Desenvolvedor Fullstack e Estagiário em UX/UI Design.",
   authors: [{ name: "Carlos Henrique" }],
   openGraph: {
     title: "Carlos Henrique — Fullstack & UX/UI",
@@ -17,7 +18,11 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="pt-BR">
       <body>
